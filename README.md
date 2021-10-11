@@ -29,7 +29,10 @@ docker run -d --name <container_name> -p 80:80 <image_name>
 curl --location --request POST 'http://127.0.0.1:80/predict/image' \
 --form 'file=@"path-to-image-file"'
 ```
-
+> 4. To access Open API documentation
+```
+visit : http://127.0.0.1:80/docs
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
