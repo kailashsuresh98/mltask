@@ -4,7 +4,7 @@ from io import BytesIO
 import numpy as np
 import tensorflow as tf
 app =  FastAPI()
-
+# comment 001
 model = tf.keras.models.load_model('./app/prediction_model')
 classes = ['Bed', 'Chair', 'Sofa']
 
